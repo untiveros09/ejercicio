@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.color-box {
+    width: 250px;
+    height: 400px;
+    border-radius: 5px; 
+    animation: CambiarColor 10s infinite; 
+
+}
+@keyframes CambiarColor {
+    0% { background-color: indigo; }
+    25% { background-color: red; }
+    50% { background-color: green; }
+    75% { background-color: blue; }
+    100% { background-color: indigo; }
+}
